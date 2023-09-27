@@ -15,6 +15,7 @@ Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of th
 
 | parameter     | description                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------|
+| filename      | String: image name, png and jpg extensions are supported                                                  |
 | tileDisplay   | Function: empty cell drawing custom procedure default is [Quadrille.TILE]({{< ref "tile" >}})[^1].  Use `0`, `null` or `undefined` to discard all edges |
 | imageDisplay  | Function: image filled cell drawing custom procedure default is [Quadrille.IMAGE]({{< ref "image" >}})    |
 | colorDisplay  | Function: color filled cell drawing custom procedure default is [Quadrille.COLOR]({{< ref "color" >}})    |
