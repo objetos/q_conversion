@@ -9,7 +9,7 @@ Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of th
 
 # Syntax
 
-> `toImage(filename, [{[cells], [tileDisplay], [imageDisplay], [colorDisplay], [stringDisplay], [numberDisplay], [arrayDisplay], [objectDisplay], [cellLength], [outlineWeight], [outline], [textColor], [textZoom]}])`
+> `toImage(filename, [{[values], [tileDisplay], [imageDisplay], [colorDisplay], [stringDisplay], [numberDisplay], [arrayDisplay], [objectDisplay], [cellLength], [outlineWeight], [outline], [textColor], [textZoom]}])`
 
 # Parameters
 
@@ -23,7 +23,7 @@ Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of th
 | numberDisplay | Function: number filled cell drawing custom procedure default is [Quadrille.NUMBER]({{< ref "number" >}}) |
 | arrayDisplay  | Function: array filled cell drawing custom procedure                                                      |
 | objectDisplay | Function: object filled cell drawing custom procedure                                                     |
-| cells         | [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of): cells to be exported. All cells are exported if this parameter is `undefined` |
+| values        | [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of): cells to be exported. All cells are exported if this parameter is `undefined` |
 | cellLength    | Number: edge length in pixels default is [Quadrille.CELL_LENGTH]({{< ref "cell_length" >}})               |
 | outlineWeight | Number: edge weight default is [Quadrille.OUTLINE_WEIGHT]({{< ref "outline_weight" >}}).                  |
 | outline       | [p5.Color](https://p5js.org/reference/#/p5.Color) representation: edge color default is [Quadrille.OUTLINE]({{< ref "outline" >}}) |
