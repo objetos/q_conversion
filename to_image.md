@@ -16,11 +16,11 @@ Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of th
 | parameter     | description                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------|
 | filename      | String: image name, png and jpg extensions are supported                                                  |
-| tileDisplay   | Function: empty cell drawing custom procedure default is [Quadrille.TILE]({{< ref "tile" >}})[^1].  Use `0`, `null` or `undefined` to discard all edges |
-| imageDisplay  | Function: image filled cell drawing custom procedure default is [Quadrille.IMAGE]({{< ref "image" >}})    |
-| colorDisplay  | Function: color filled cell drawing custom procedure default is [Quadrille.COLOR]({{< ref "color" >}})    |
-| stringDisplay | Function: string filled cell drawing custom procedure default is [Quadrille.STRING]({{< ref "string" >}}) |
-| numberDisplay | Function: number filled cell drawing custom procedure default is [Quadrille.NUMBER]({{< ref "number" >}}) |
+| tileDisplay   | Function: empty cell drawing custom procedure default is [Quadrille.tile]({{< ref "tile" >}})[^1].  Use `0`, `null` or `undefined` to discard all edges |
+| imageDisplay  | Function: image filled cell drawing custom procedure default is [Quadrille.image]({{< ref "image" >}})    |
+| colorDisplay  | Function: color filled cell drawing custom procedure default is [Quadrille.color]({{< ref "color" >}})    |
+| stringDisplay | Function: string filled cell drawing custom procedure default is [Quadrille.string]({{< ref "string" >}}) |
+| numberDisplay | Function: number filled cell drawing custom procedure default is [Quadrille.number]({{< ref "number" >}}) |
 | arrayDisplay  | Function: array filled cell drawing custom procedure                                                      |
 | objectDisplay | Function: object filled cell drawing custom procedure                                                     |
 | values        | [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of): cells to be exported. All cells are exported if this parameter is `undefined` |
