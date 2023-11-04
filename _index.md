@@ -4,6 +4,6 @@ weight: 9
 draft: false
 ---
 
-# Conversion methods
+# Reformatter
 
-Conversion methods transition between a quadrille and other representations such as [bitboards](https://en.wikipedia.org/wiki/Bitboard), [image](https://p5js.org/reference/#/p5.Image) and arrays.
+Reformatter methods facilitate the conversion of a quadrille into various formats, including [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt), [images](https://p5js.org/reference/#/p5.Image), and array data structures. These transformations allow seamless transitions and interoperability between different data representations.
