@@ -1,9 +1,8 @@
 ---
 weight: 3
 draft: false
+title: toImage()
 ---
-
-# toImage
 
 Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of this quadrille.
 
