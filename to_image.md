@@ -6,11 +6,11 @@ title: toImage()
 
 Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of this quadrille.
 
-# Syntax
+## Syntax
 
 > `toImage(filename, [{[values], [tileDisplay], [imageDisplay], [colorDisplay], [stringDisplay], [numberDisplay], [arrayDisplay], [objectDisplay], [cellLength], [outlineWeight], [outline], [textColor], [textZoom]}])`
 
-# Parameters
+## Parameters
 
 | parameter     | description                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------|
