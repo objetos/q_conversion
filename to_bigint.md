@@ -1,7 +1,7 @@
 ---
 weight: 2
 draft: false
-title: toBitboard(littleEndian?)
+title: toBigInt(littleEndian?)
 ---
 
 Returns a [bitboard](https://en.wikipedia.org/wiki/Bitboard)—encoded as a JavaScript [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)—that represents the filled cells of the quadrille.
@@ -14,7 +14,7 @@ Use `littleEndian = true` to reverse the bit order, so the top-left cell becomes
 
 ## Syntax
 
-> `toBitboard([littleEndian])`
+> `toBigInt([littleEndian])`
 
 ## Parameters
 

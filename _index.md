@@ -10,7 +10,7 @@ title: Reformatter
 ## Method Overview  
 
 - **[toArray()]({{< relref "to_array" >}}):** Converts the `quadrille` into a two-dimensional array, preserving its cell structure and content.  
-- **[toBitboard()]({{< relref "to_bitboard" >}}):** Converts the `quadrille` into a `BigInt`, encoding its non-empty cells as bits.  
+- **[toBigInt()]({{< relref "to_bigint" >}}):** Converts the `quadrille` into a `BigInt`, encoding its non-empty cells as bits.  
 - **[toImage()]({{< relref "to_image" >}}):** Generates a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of the `quadrille`, rendering its content as pixels.  
 - **[toFEN()]({{< relref "to_fen" >}})**: Encodes the quadrille into a FEN (Forsyth-Edwards Notation) string, often used for representing board states in games like chess.
 
