@@ -25,7 +25,7 @@ Returns a [p5.Image](https://p5js.org/reference/#/p5.Image) representation of th
 | `symbolDisplay`  | Function: drawing procedure for Symbol-filled cells (no default provided)                                  |
 | `arrayDisplay`   | Function: drawing procedure for array-filled cells (no default provided)                                   |
 | `objectDisplay`  | Function: drawing procedure for object-filled cells (no default provided)                                  |
-| `filter`         | Function, Set, or Array: selects which cells to export; see [`cells`]({{< ref "cells" >}}) for accepted filter types |
+| `filter`         | Function, Set, or Array: selects which cells to export; see [`iterators`]({{< ref "iterators" >}}) for accepted filter types |
 | `cellLength`     | Number: edge length in pixels; default is [Quadrille.cellLength]({{< ref "cell_length" >}})               |
 | `outlineWeight`  | Number: edge weight; default is [Quadrille.outlineWeight]({{< ref "outline_weight" >}})                   |
 | `outline`        | [p5.Color](https://p5js.org/reference/#/p5.Color): edge color; default is [Quadrille.outline]({{< ref "outline" >}}) |
